@@ -10,3 +10,41 @@
     --lightGrayishBlue: hsl(223, 64%, 98%);
     --white: hsl(0, 0%, 100%);
 }
+
+main {
+    background-color: var(--white);
+    padding: 3%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 5%;
+    background-color: var(--orange);
+}
+
+.links-container {
+    display: none;
+}
+
+.logo {
+    margin-right: 8%;
+}
+
+.cart-avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart {
+    width: 25%;
+}
+
+.avatar {
+    width: 40%;
+}
+
+.menu {
+    width: 1.8rem;
+}
