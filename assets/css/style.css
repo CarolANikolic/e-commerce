@@ -61,3 +61,8 @@ nav {
 .product {
     width: 70%;
 }
+
+.product:hover {
+    border: 2px var(--orange) solid;
+    border-radius: 10px;
+}
