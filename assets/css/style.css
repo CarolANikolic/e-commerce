@@ -53,6 +53,10 @@ nav {
 }
 
 /* Products/main style */
+.product-collection {
+    display: grid;
+    justify-items: center;
+}
 
 .product {
     width: 70%;
