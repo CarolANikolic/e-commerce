@@ -16,11 +16,14 @@ main {
     padding: 3%;
 }
 
+/* Navbar Style */
+
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 10% 5%;
-    background-color: var(--orange);
+    padding: 2% 5%;
+    background-color: var(--white);
+    border-bottom: 1px var(--grayishBlue) solid;
 }
 
 .links-container {
@@ -38,13 +41,19 @@ nav {
 }
 
 .cart {
-    width: 25%;
+    width: 20%;
 }
 
 .avatar {
-    width: 40%;
+    width: 30%;
 }
 
 .menu {
-    width: 1.8rem;
+    width: 1.5rem;
+}
+
+/* Products/main style */
+
+.product {
+    width: 70%;
 }
